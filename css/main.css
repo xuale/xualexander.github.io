@@ -20,20 +20,8 @@ ul#menu li {
 	margin-left: 1rem; !important
 }
 
-.main-body{
-	padding-top: 1rem; !important
-}
 
-.upper-bar {
-	padding-top: 1rem; !important
-}
 
-p {
-	font-family: "Lucida Console", Monaco, monospace; !important
-} 
-a {
-	font-family: "Lucida Console", Monaco, monospace; !important
-} 
-h1 {
+p, a, h1 {
 	font-family: "Lucida Console", Monaco, monospace; !important
 } 
