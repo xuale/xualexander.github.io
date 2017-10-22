@@ -3,6 +3,7 @@ ul#menu li {
 }
 
 .jumbotron { 
+	margin-top: 1rem;
 	padding-top: 15rem;
 	padding-bottom: 15rem; !important
 
@@ -20,7 +21,7 @@ ul#menu li {
 	margin-left: 1rem; !important
 }
 
-.main-body{
+.upper-bar {
 	padding-top: 1rem; !important
 }
 
