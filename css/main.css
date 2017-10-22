@@ -1,3 +1,31 @@
 ul#menu li {
     display:inline;
 }
+
+.jumbotron { 
+	padding-top: 15rem;
+	padding-bottom: 15rem;
+
+ }
+
+ #links {
+ 	margin-top: 1rem;
+ }
+
+.linkbutton {
+	margin-left: 3rem;
+}
+
+.blurb {
+	margin-left: 1rem;
+}
+
+p {
+	font-family: "Lucida Console", Monaco, monospace;
+} 
+a {
+	font-family: "Lucida Console", Monaco, monospace; 
+} 
+h1 {
+	font-family: "Lucida Console", Monaco, monospace; 
+} 
