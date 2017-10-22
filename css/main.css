@@ -25,7 +25,11 @@ ul#menu li {
 
 
 
-p, a, h1 {
+p, h1 {
 	font-family: "Lucida Console", Monaco, monospace;
 	color: white;
 } 
+
+a{
+	font-family: "Lucida Console", Monaco, monospace;
+}
