@@ -4,8 +4,10 @@ ul#menu li {
 
 .jumbotron { 
 	padding-top: 15rem;
-	padding-bottom: 15rem; !important
-
+	padding-bottom: 15rem;
+	background-image: url("../media/brainsplash.gif");
+	background-size: cover;
+	background-position: 0 -4rem;
  }
 
  #links {
@@ -13,7 +15,8 @@ ul#menu li {
  }
 
 .linkbutton {
-	margin-left: 3rem; !important
+	margin-left: 3rem;
+	fill: white;
 }
 
 .blurb {
@@ -23,5 +26,6 @@ ul#menu li {
 
 
 p, a, h1 {
-	font-family: "Lucida Console", Monaco, monospace; !important
+	font-family: "Lucida Console", Monaco, monospace;
+	color: white;
 } 
