@@ -4,28 +4,32 @@ ul#menu li {
 
 .jumbotron { 
 	padding-top: 15rem;
-	padding-bottom: 15rem;
+	padding-bottom: 15rem; !important
 
  }
 
  #links {
- 	margin-top: 1rem;
+ 	margin-top: 1rem; !important
  }
 
 .linkbutton {
-	margin-left: 3rem;
+	margin-left: 3rem; !important
 }
 
 .blurb {
-	margin-left: 1rem;
+	margin-left: 1rem; !important
+}
+
+.main-body{
+	padding-top: 1rem; !important
 }
 
 p {
-	font-family: "Lucida Console", Monaco, monospace;
+	font-family: "Lucida Console", Monaco, monospace; !important
 } 
 a {
-	font-family: "Lucida Console", Monaco, monospace; 
+	font-family: "Lucida Console", Monaco, monospace; !important
 } 
 h1 {
-	font-family: "Lucida Console", Monaco, monospace; 
+	font-family: "Lucida Console", Monaco, monospace; !important
 } 
