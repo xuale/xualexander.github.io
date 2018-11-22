@@ -1,35 +1,47 @@
-ul#menu li {
-    display:inline;
+body {
+	font-family: 'Roboto Mono', monospace;
 }
 
-.jumbotron { 
-	padding-top: 15rem;
-	padding-bottom: 15rem;
-	background-image: url("../media/brainsplash.gif");
-	background-size: cover;
-	background-position: 0 -4rem;
- }
-
- #links {
- 	margin-top: 1rem; !important
- }
-
-.linkbutton {
-	margin-left: 3rem;
-	fill: white;
+.container {
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	padding-left: 32%;
+	padding-right: 32%;
 }
 
-.blurb {
-	margin-left: 1rem; !important
+@media only screen and (max-width: 960px) {
+	.container {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+		padding-left: 16%;
+		padding-right: 16%;
+	}
 }
 
+@media only screen and (max-width: 480px) {
+	.container {
+		padding-top: 8rem;
+		padding-bottom: 8rem;
+		padding-left: 8%;
+		padding-right: 8%;
+	}
+}
 
+.text-wrapper {
+	margin: auto;
+}
 
-p, h1 {
-	font-family: "Lucida Console", Monaco, monospace;
-	color: white;
-} 
+.title {
+	font-size: 32px;
+	font-weight: 600;
+	padding-top: 4%;
+}
 
-a{
-	font-family: "Lucida Console", Monaco, monospace;
+.subtitle {
+	padding-top: 2%;
+	font-size: 16px;
+}
+
+a {
+	color: #00cca3;
 }
