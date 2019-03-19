@@ -4,32 +4,9 @@ body {
 }
 
 .container {
-	padding-top: 8rem;
-	padding-bottom: 8rem;
+	padding-top: 8%;
 	padding-left: 4%;
-	padding-right: 48%;
-}
-
-@media only screen and (max-width: 960px) {
-	.container {
-		padding-top: 8rem;
-		padding-bottom: 8rem;
-		padding-left: 4%;
-		padding-right: 16%;
-	}
-}
-
-@media only screen and (max-width: 480px) {
-	.container {
-		padding-top: 8rem;
-		padding-bottom: 8rem;
-		padding-left: 4%;
-		padding-right: 8%;
-	}
-}
-
-.text-wrapper {
-	margin: auto;
+	width: 800px;
 }
 
 .title {
@@ -46,4 +23,6 @@ body {
 
 a {
 	color: #81cde4;
+	/* text-decoration: none; */
+	font-style: italic;
 }
