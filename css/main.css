@@ -1,11 +1,12 @@
 body {
-	font-family: 'Roboto Mono', monospace;
+	background-color: #f9e5c3;
+	color: #dd3e2f;
 }
 
 .container {
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	padding-left: 32%;
+	padding-left: 4%;
 	padding-right: 32%;
 }
 
@@ -13,7 +14,7 @@ body {
 	.container {
 		padding-top: 8rem;
 		padding-bottom: 8rem;
-		padding-left: 16%;
+		padding-left: 4%;
 		padding-right: 16%;
 	}
 }
@@ -22,7 +23,7 @@ body {
 	.container {
 		padding-top: 8rem;
 		padding-bottom: 8rem;
-		padding-left: 8%;
+		padding-left: 4%;
 		padding-right: 8%;
 	}
 }
@@ -32,16 +33,18 @@ body {
 }
 
 .title {
-	font-size: 32px;
-	font-weight: 600;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 64px;
 	padding-top: 4%;
 }
 
 .subtitle {
-	padding-top: 2%;
-	font-size: 16px;
+	font-family: 'Bungee', cursive;
+	padding-top: 4%;
+	font-size: 24px;
+	font-weight: 0;
 }
 
 a {
-	color: #00cca3;
+	color: #81cde4;
 }
